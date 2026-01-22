@@ -1,0 +1,35 @@
+.topbar {
+  background: linear-gradient(to right, #1f2937, #111827);
+  color: #e5e7eb;
+  font-size: 13px;
+  padding: 8px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topbar-left {
+  display: flex;
+  gap: 20px;
+}
+
+.topbar-right {
+  display: flex;
+  gap: 14px;
+
+  a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-weight: 600;
+
+    &:hover {
+      color: #ffffff;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .topbar {
+    display: none; // hides on mobile like ThemeForest
+  }
+}

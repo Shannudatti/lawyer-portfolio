@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--off-white);   // ✅ light grey background
+  color: var(--black);            // ✅ black text
+  font-family: var(--font-sub);
+}
+
+section {
+  padding: 100px 10%;
+  background: var(--white);
+  border-bottom: 1px solid var(--border);
+}
+
+h1, h2 {
+  font-family: var(--font-main);
+  letter-spacing: 0.5px;
+}
+
+p {
+  color: var(--gray);
+  line-height: 1.8;
+}

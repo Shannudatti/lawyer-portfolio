@@ -1,0 +1,31 @@
+.hero {
+  background: var(--white);
+
+  h1 {
+    font-size: 76px;
+    line-height: 1.1;
+    max-width: 700px;
+  }
+
+  p {
+    max-width: 520px;
+    margin: 30px 0 50px;
+    font-size: 16px;
+  }
+
+  button {
+    background: var(--black);
+    color: var(--white);
+    border: none;
+    padding: 16px 44px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    &:hover {
+      background: var(--dark-gray);
+      transform: translateY(-2px);
+    }
+  }
+}
