@@ -8,7 +8,7 @@ import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Blog from "./components/Blog";
-import Appointment from "./components/Appointment";
+// import Appointment from "./components/Appointment";
 import "./styles/main.scss";
 
 export default function App() {
@@ -24,7 +24,7 @@ export default function App() {
       <Blog />
       <Contact />
       <Footer />
-      <Appointment />
+      {/* <Appointment /> */}
     </>
   );
 }

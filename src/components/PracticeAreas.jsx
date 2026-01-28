@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 const areas = [
   "Criminal Law",
   "Corporate Law",
@@ -9,6 +10,7 @@ const areas = [
 
 export default function PracticeAreas() {
   return (
+    
     <section>
       <h2>Practice Areas</h2>
       <div className="grid">
@@ -17,5 +19,6 @@ export default function PracticeAreas() {
         ))}
       </div>
     </section>
+    
   );
 }

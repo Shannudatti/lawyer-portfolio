@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
-
+import Reveal from "./Reveal";
 export default function About() {
   return (
+    <Reveal>
     <section className="about">
       <div className="about-grid">
         
@@ -35,5 +36,6 @@ export default function About() {
 
       </div>
     </section>
+    </Reveal>
   );
 }
